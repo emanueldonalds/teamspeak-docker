@@ -11,3 +11,5 @@ sudo reboot
 ## Run
 docker-compose up
 
+## Access container shell
+docker exec -it ts /bin/sh
