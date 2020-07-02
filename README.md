@@ -20,5 +20,5 @@ If the server stops responding and logs ```Error creating ephemeral license: EXP
 docker container stop ts
 docker container prune -y
 docker container pull teamspeak
-docker-compose up teamspeak
+docker-compose up teamspeak &
 ```
