@@ -17,8 +17,8 @@ docker exec -it ts /bin/sh
 ## Issues
 If the server stops responding and logs ```Error creating ephemeral license: EXPIRED``` then you need to update the docker image:
 ```
+cd teamspeak-docker
 docker container stop ts
-docker container prune -y
-docker container pull teamspeak
+docker pull teamspeak
 docker-compose up teamspeak &
 ```
