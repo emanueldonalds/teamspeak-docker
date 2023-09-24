@@ -1,4 +1,4 @@
-# Teamspeak server
+# Teamspeak server for Amazon Linux 2
 
 ## Install docker compose
 sudo chmod +x install_docker.sh
